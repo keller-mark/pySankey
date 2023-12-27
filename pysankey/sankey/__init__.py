@@ -113,7 +113,7 @@ def sankey(
         rightWeight,
     )
     plt.rc("text", usetex=False)
-    plt.rc("font", family="serif")
+    #plt.rc("font", family="serif")
     data_frame = _create_dataframe(left, leftWeight, right, rightWeight)
     # Identify all labels that appear 'left' or 'right'
     all_labels = pd.Series(
